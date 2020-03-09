@@ -32,6 +32,7 @@ header{
     position: absolute;
     float: right;
     font-size: 15px;
+    margin-top: 20px;
     top: 0px;
     right:16px;
 }
@@ -142,12 +143,15 @@ p{
     border: solid white;
     background-color: white;
     margin-bottom: 80px;
+    color: white;
 }
 .content>div{
     background-color: #1CC9D6;
     text-align: center;
     grid-column: span 1;
     border: solid white thick;
+    padding: 30px 10px 10px 10px;
+    font-size: 15px;
 
 }
 .content1>.Featured_event{
@@ -342,6 +346,14 @@ footer>h3{
         grid-row: 1 / span ;
     
     }
+    .content{
+        padding: 0px;
+        font-size: 15px;
+    }
+    .content>div{
+        padding: 0px;
+        font-size: 15px;
+    }
     .foot_menu>.line_art{
         display: none;
     }
@@ -353,6 +365,18 @@ footer>h3{
         box-sizing: border-box;
         font-size: 20px;
         width: 100%;
+    }
+    .centered{
+        font-size: 20px;
+
+    }
+    .top-right{
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .top-left{
+        margin: -10px;
+        font-size: 10px;
     }
     .content1>.Featured_event{
         background-image: url(./img/toronto_feature.jpg);
@@ -403,6 +427,15 @@ footer>h3{
         .subscribe>button{
             margin: -12px 0px 0px 20px;
         }
+        .content{
+            padding: 0px;
+            font-size: 13px;
+        }
+        .content>div{
+            padding: 0px;
+
+            font-size: 13px;
+        }
         .content1>.Featured_event>h2{
             font-size: 10px;
             width: 100px;
@@ -442,7 +475,7 @@ footer>h3{
             align-items: center;
         }
  }       
- @media screen and (max-width: 4100px) {
+ @media screen and (max-width: 410px) {
     .centered{
             font-size: 20px;
 
