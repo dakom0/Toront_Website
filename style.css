@@ -96,24 +96,24 @@ p{
 
 }
 .See{
-    background-image: url("./See&do.png");
+    background-image: url("./img/See&do.png");
     background-size: cover;
     font-size: 30px;
 }
 .Eat{
-    background-image: url("./Eat&drink.png");
+    background-image: url("./img/Eat&drink.png");
     background-size: cover;
     font-size: 30px;
 
 }
 .Stay{
-    background-image: url("./Stay&plan.png");
+    background-image: url("./img/Stay&plan.png");
     background-size: cover;
     font-size: 30px;
 
 }
 .Event{
-    background-image: url("./event.png");
+    background-image: url("./img/event.png");
     background-size: cover;
     font-size: 30px;
 
@@ -156,7 +156,7 @@ p{
     color: teal;
     padding: 10px 10px 10px 10px;
     border: solid white thick;
-    background-image: url(./AdobeStock_138888689.png);
+    background-image: url(./img/AdobeStock_138888689.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -355,7 +355,7 @@ footer>h3{
         width: 100%;
     }
     .content1>.Featured_event{
-        background-image: url(./toronto_feature.jpg);
+        background-image: url(./img/toronto_feature.jpg);
         font-size: 15px;
     }
     .content1>.Featured_event2>p{
